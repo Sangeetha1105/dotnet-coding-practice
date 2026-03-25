@@ -1,0 +1,16 @@
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Enter your number");
+        int num=int.Parse(Console.ReadLine());
+        if(num%2==0)
+        {
+            Console.WriteLine("Even");
+        }
+        else
+        {
+            Console.WriteLine("Odd");
+        }
+    }
+}
